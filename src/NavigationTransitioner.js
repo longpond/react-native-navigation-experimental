@@ -16,7 +16,7 @@ const NavigationPropTypes = require('./NavigationPropTypes');
 const NavigationScenesReducer = require('./Reducer/NavigationScenesReducer');
 const React = require('react');
 
-const invariant = require('./utils/invariant');
+const invariant = require('./Vendor/invariant');
 
 import type {
   NavigationAnimatedValue,

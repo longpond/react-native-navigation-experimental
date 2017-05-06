@@ -13,7 +13,7 @@
 
 const {PanResponder} = require('react-native');
 
-const invariant = require('./utils/invariant');
+const invariant = require('./Vendor/invariant');
 
 import type  {
   NavigationPanPanHandlers,

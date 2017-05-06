@@ -35,7 +35,7 @@
 const React = require('react');
 const NavigationAnimatedValueSubscription = require('./NavigationAnimatedValueSubscription');
 
-const invariant = require('../utils/invariant');
+const invariant = require('../Vendor/invariant');
 
 import type  {
   NavigationSceneRendererProps,

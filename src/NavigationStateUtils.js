@@ -11,7 +11,7 @@
  */
 'use strict';
 
-const invariant = require('./utils/invariant');
+const invariant = require('./Vendor/invariant');
 
 import type {
   NavigationRoute,

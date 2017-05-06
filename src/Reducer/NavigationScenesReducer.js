@@ -11,8 +11,8 @@
  */
 'use strict';
 
-const invariant = require('../utils/invariant');
-const shallowEqual = require('../utils/shallowEqual');
+const invariant = require('../Vendor/invariant');
+const shallowEqual = require('../Vendor/shallowEqual');
 
 import type {
   NavigationRoute,
