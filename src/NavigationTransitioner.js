@@ -11,13 +11,10 @@
  */
 'use strict';
 
-const Animated = require('Animated');
-const Easing = require('Easing');
+const {Animated, Easing, StyleSheet, View} = require('react-native');
 const NavigationPropTypes = require('./NavigationPropTypes');
-const NavigationScenesReducer = require('./NavigationScenesReducer');
-const React = require('React');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
+const NavigationScenesReducer = require('./Reducer/NavigationScenesReducer');
+const React = require('react');
 
 const invariant = require('./utils/invariant');
 

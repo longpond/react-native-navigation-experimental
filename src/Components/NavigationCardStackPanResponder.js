@@ -11,11 +11,10 @@
  */
 'use strict';
 
-const Animated = require('Animated');
-const I18nManager = require('I18nManager');
-const NavigationAbstractPanResponder = require('./NavigationAbstractPanResponder');
+const {Animated, I18nManager} = require('react-native');
+const NavigationAbstractPanResponder = require('../NavigationAbstractPanResponder');
 
-const clamp = require('clamp');
+const clamp = require('../utils/clamp');
 
 import type {
   NavigationPanPanHandlers,

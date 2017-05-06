@@ -36,9 +36,9 @@ const NavigationHeaderBackButton = require('./NavigationHeaderBackButton');
 const NavigationHeaderStyleInterpolator = require('./NavigationHeaderStyleInterpolator');
 const NavigationHeaderTitle = require('./NavigationHeaderTitle');
 const NavigationPropTypes = require('../NavigationPropTypes');
-const React = require('React');
+const React = require('react');
 const ReactNative = require('react-native');
-const TVEventHandler = require('TVEventHandler');
+const TVEventHandler = ReactNative.TVEventHandler;
 
 const {
   Animated,

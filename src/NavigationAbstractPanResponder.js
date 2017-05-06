@@ -11,7 +11,7 @@
  */
 'use strict';
 
-const PanResponder = require('PanResponder');
+const {PanResponder} = require('react-native');
 
 const invariant = require('./utils/invariant');
 

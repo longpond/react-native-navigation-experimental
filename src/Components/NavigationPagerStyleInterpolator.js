@@ -32,7 +32,7 @@
  */
 'use strict';
 
-const I18nManager = require('I18nManager');
+const {I18nManager} = require('react-native');
 
 import type  {
   NavigationSceneRendererProps,

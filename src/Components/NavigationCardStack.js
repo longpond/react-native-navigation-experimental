@@ -32,15 +32,14 @@
  */
 'use strict';
 
-const NativeAnimatedModule = require('NativeModules').NativeAnimatedModule;
-const NavigationCard = require('NavigationCard');
+const {View, StyleSheet, NativeModules} = require('react-native')
+const NativeAnimatedModule = NativeModules.NativeAnimatedModule;
+const NavigationCard = require('./NavigationCard');
 const NavigationCardStackPanResponder = require('./NavigationCardStackPanResponder');
 const NavigationCardStackStyleInterpolator = require('./NavigationCardStackStyleInterpolator');
 const NavigationPropTypes = require('../NavigationPropTypes');
 const NavigationTransitioner = require('../NavigationTransitioner');
-const React = require('React');
-const StyleSheet = require('StyleSheet');
-const View = require('View');
+const React = require('react');
 
 const {PropTypes} = React;
 const {Directions} = NavigationCardStackPanResponder;

@@ -32,15 +32,14 @@
  */
 'use strict';
 
-const Animated = require('Animated');
+const {Animated, StyleSheet} = require('react-native');
 const NavigationCardStackPanResponder = require('./NavigationCardStackPanResponder');
 const NavigationCardStackStyleInterpolator = require('./NavigationCardStackStyleInterpolator');
 const NavigationPagerPanResponder = require('./NavigationPagerPanResponder');
 const NavigationPagerStyleInterpolator = require('./NavigationPagerStyleInterpolator');
 const NavigationPointerEventsContainer = require('./NavigationPointerEventsContainer');
 const NavigationPropTypes = require('../NavigationPropTypes');
-const React = require('React');
-const StyleSheet = require('StyleSheet');
+const React = require('react');
 
 import type  {
   NavigationPanPanHandlers,

@@ -22,8 +22,8 @@ import type  {
  * type check errors at build time.
  */
 
-const Animated = require('Animated');
-const React = require('React');
+const {Animated} = require('react-native');
+const React = require('react');
 
 const {PropTypes} = React;
 
