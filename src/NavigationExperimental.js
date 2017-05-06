@@ -14,6 +14,7 @@
 const NavigationCard = require('./Components/NavigationCard');
 const NavigationCardStack = require('./Components/NavigationCardStack');
 const NavigationHeader = require('./Components/NavigationHeader');
+const NavigationPointerEventsContainer = require('./Components/NavigationPointerEventsContainer');
 const NavigationPropTypes = require('./NavigationPropTypes');
 const NavigationStateUtils = require('./NavigationStateUtils');
 const NavigationTransitioner = require('./NavigationTransitioner');
@@ -31,6 +32,9 @@ const NavigationExperimental = {
   Header: NavigationHeader,
 
   PropTypes: NavigationPropTypes,
+
+  // Extras added only in react-native-navigation-experimental
+  createPointerEventsContainer: NavigationPointerEventsContainer.create,
 };
 
 module.exports = NavigationExperimental;
