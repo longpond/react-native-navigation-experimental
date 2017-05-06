@@ -1,0 +1,12 @@
+{
+  "name": "react-native-navigation-experimental",
+  "version": "1.0.0",
+  "description": "The library as it existed in React Native 0.44.3",
+  "main": "src/NavigationExperimental.js",
+  "repository": "git@github.com:longpond/react-native-navigation-experimental.git",
+  "author": "Ryan Kaskel <ryan.kaskel@longpond.co.uk>",
+  "license": "BSD-3-Clause",
+  "peerDependencies": {
+    "react-native": "*"
+  }
+}
