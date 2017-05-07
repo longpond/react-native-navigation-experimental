@@ -11,8 +11,8 @@
  */
 'use strict';
 
-const invariant = require('../Vendor/invariant');
-const shallowEqual = require('../Vendor/shallowEqual');
+const invariant = require('fbjs/lib/invariant');
+const shallowEqual = require('fbjs/lib/shallowEqual');
 
 import type {
   NavigationRoute,

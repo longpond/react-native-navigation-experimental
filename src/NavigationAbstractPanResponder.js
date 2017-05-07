@@ -13,7 +13,7 @@
 
 const {PanResponder} = require('react-native');
 
-const invariant = require('./Vendor/invariant');
+const invariant = require('fbjs/lib/invariant');
 
 import type  {
   NavigationPanPanHandlers,

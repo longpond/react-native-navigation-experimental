@@ -35,7 +35,7 @@
 const React = require('react');
 const NavigationAnimatedValueSubscription = require('./NavigationAnimatedValueSubscription');
 
-const invariant = require('../Vendor/invariant');
+const invariant = require('fbjs/lib/invariant');
 
 import type  {
   NavigationSceneRendererProps,

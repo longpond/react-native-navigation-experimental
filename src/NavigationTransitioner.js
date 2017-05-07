@@ -16,7 +16,7 @@ const NavigationPropTypes = require('./NavigationPropTypes');
 const NavigationScenesReducer = require('./Reducer/NavigationScenesReducer');
 const React = require('react');
 
-const invariant = require('./Vendor/invariant');
+const invariant = require('fbjs/lib/invariant');
 
 import type {
   NavigationAnimatedValue,
