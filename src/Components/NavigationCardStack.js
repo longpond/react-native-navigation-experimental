@@ -32,7 +32,7 @@
  */
 'use strict';
 
-const {View, StyleSheet, NativeModules} = require('react-native')
+const {View, ViewPropTypes, StyleSheet, NativeModules} = require('react-native')
 const NativeAnimatedModule = NativeModules.NativeAnimatedModule;
 const NavigationCard = require('./NavigationCard');
 const NavigationCardStackPanResponder = require('./NavigationCardStackPanResponder');
@@ -201,12 +201,12 @@ class NavigationCardStack extends React.Component<DefaultProps, Props, void> {
     /**
      * Custom style applied to the cards stack.
      */
-    style: View.propTypes.style,
+    style: ViewPropTypes.style,
 
     /**
      * Custom style applied to the scenes stack.
      */
-    scenesStyle: View.propTypes.style,
+    scenesStyle: ViewPropTypes.style,
   };
 
   static defaultProps: DefaultProps = {

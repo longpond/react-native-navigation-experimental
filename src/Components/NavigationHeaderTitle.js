@@ -39,6 +39,7 @@ const {
   Platform,
   StyleSheet,
   View,
+  ViewPropTypes,
   Text,
 } = ReactNative;
 
@@ -74,7 +75,7 @@ const styles = StyleSheet.create({
 
 NavigationHeaderTitle.propTypes = {
   children: React.PropTypes.node.isRequired,
-  style: View.propTypes.style,
+  style: ViewPropTypes.style,
   textStyle: Text.propTypes.style
 };
 
