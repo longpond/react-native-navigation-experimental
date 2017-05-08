@@ -1,5 +1,5 @@
 {
-  "name": "react-native-navigation-experimental",
+  "name": "@longpond/react-native-navigation-experimental",
   "version": "1.0.0",
   "description": "The library as it existed in React Native 0.44.3",
   "main": "src/NavigationExperimental.js",
