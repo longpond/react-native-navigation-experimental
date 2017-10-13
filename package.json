@@ -8,5 +8,8 @@
   "license": "BSD-3-Clause",
   "peerDependencies": {
     "react-native": "*"
+  },
+  "dependencies": {
+    "prop-types": "^15.6.0"
   }
 }
