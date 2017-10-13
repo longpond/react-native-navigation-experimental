@@ -39,9 +39,9 @@ const NavigationCardStackPanResponder = require('./NavigationCardStackPanRespond
 const NavigationCardStackStyleInterpolator = require('./NavigationCardStackStyleInterpolator');
 const NavigationPropTypes = require('../NavigationPropTypes');
 const NavigationTransitioner = require('../NavigationTransitioner');
+const PropTypes = require('prop-types');
 const React = require('react');
 
-const {PropTypes} = React;
 const {Directions} = NavigationCardStackPanResponder;
 
 import type {

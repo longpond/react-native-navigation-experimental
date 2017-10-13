@@ -36,6 +36,7 @@ const NavigationHeaderBackButton = require('./NavigationHeaderBackButton');
 const NavigationHeaderStyleInterpolator = require('./NavigationHeaderStyleInterpolator');
 const NavigationHeaderTitle = require('./NavigationHeaderTitle');
 const NavigationPropTypes = require('../NavigationPropTypes');
+const PropTypes = require('prop-types');
 const React = require('react');
 const ReactNative = require('react-native');
 const TVEventHandler = ReactNative.TVEventHandler;
@@ -80,7 +81,6 @@ type SubViewName = 'left' | 'title' | 'right';
 
 const APPBAR_HEIGHT = Platform.OS === 'ios' ? 44 : 56;
 const STATUSBAR_HEIGHT = Platform.OS === 'ios' ? 20 : 0;
-const {PropTypes} = React;
 
 class NavigationHeader extends React.PureComponent<DefaultProps, Props, any> {
   props: Props;
