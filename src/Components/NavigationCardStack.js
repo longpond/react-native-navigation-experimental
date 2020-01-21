@@ -218,7 +218,7 @@ class NavigationCardStack extends React.Component<DefaultProps, Props, void> {
     super(props, context);
   }
 
-  componentWillMount(): void {
+  UNSAFE_componentWillMount(): void {
     this._render = this._render.bind(this);
     this._renderScene = this._renderScene.bind(this);
   }
